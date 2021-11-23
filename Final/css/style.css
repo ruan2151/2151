@@ -1,0 +1,43 @@
+#produtos,#sobre,#fale{
+    min-height: 100vh;
+    padding: 4em;
+}
+
+#produtos{
+    background-color: rgb(16, 31, 78);
+    color: white;
+}
+
+#produtos p, h5{
+    color: black
+}
+
+#sobre{
+    background-color: rgb(6,  11, 27);
+    color: white
+}
+
+#fale{
+    background-color: rgb(26, 35, 63);
+    color: white;
+}
+
+nav{
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+#produtos img{
+    max-height: 380px;
+}
+
+.card h5{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1em;
+}
